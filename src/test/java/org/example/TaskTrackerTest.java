@@ -58,7 +58,6 @@ class TaskTrackerTest {
 
     @Test
     public void test3(){
-        tasks.clear();
         tasks.add(new Task(14, "Learn java"));
         tasks.add(new Task(5, "Learn Spring"));
         tasks.add(new Task(4, "Learn SQL"));
